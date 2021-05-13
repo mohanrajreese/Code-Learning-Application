@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Angu</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="mdb/css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="mdb/css/mdb.min.css">
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+  <!-- MDB -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.css" rel="stylesheet" />
+
+
+  <!-- Your custom styles (optional) -->
+  <style>
+    .bg {
+      background-color: #F1F1F1;
+    }
+  </style>
+</head>
+
+<body class="fixed-sn white-skin bg">
+
+  <!--Main Navigation-->
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light bg-light fixed-top navbar-expand-lg scrolling-navbar double-nav">
+      <!-- Breadcrumb-->
+      <div class="breadcrumb-dn mr-auto">
+        <a href="index.html">
+          <h5 style="color: red;">&emsp;Code Learning Application</h5>
+        </a>
+      </div>
+
+      <!--Navbar links-->
+      <ul class="nav navbar-nav nav-flex-icons ml-auto">
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle waves-effect" href="#" id="userDropdown" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-code"></i> <span class="clearfix d-none d-sm-inline-block">Online Compiler</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="comp.php?lang=c_lang">C</a>
+            <a class="dropdown-item" href="comp.php?lang=cpp_lang">C++</a>
+            <a class="dropdown-item" href="comp.php?lang=java_lang">Java</a>
+            <a class="dropdown-item" href="comp.php?lang=python_lang">Python</a>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link waves-effect"><i class="fas fa-envelope"></i> <span
+              class="clearfix d-none d-sm-inline-block">Contact</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link waves-effect"><i class="far fa-comments"></i> <span
+              class="clearfix d-none d-sm-inline-block">Support</span></a>
+        </li>
+
+      </ul>
+      <!--/Navbar links-->
+    </nav>
+    <!--Navbar -->
+
+  </header>
+  <!--Main Navigation-->
+  <!-- Main layout -->
+  <main>
+    <div class="container-fluid">
+
+
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="col">
+          <div class="card h-100 w-100 hover-shadow rounded">
+            <div class="bg-image hover-zoom hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-duration="4s">
+              <img src="images/c.png" class="card-img-top" alt="Sorry, Image Error" />
+            </div>
+            <div class="card-body">
+              <p class="card-text">C is a general-purpose, procedural computer programming language supporting
+                structured programming and recursion, with a static type system.</p>
+              <a href="home.php?lang=c_lang" class="btn btn-success btn-rounded float-right">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-100 hover-shadow rounded">
+            <div class="bg-image hover-zoom hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-duration="3s">
+              <img src="images/cpp.png" class="card-img-top" alt="Sorry, Image Error" />
+            </div>
+            <div class="card-body">
+              <p class="card-text">C++ is a general-purpose programming language created by Bjarne Stroustrup as an
+                extension
+                of the C programming language, or "C with Classes".</p>
+              <a href="home.php?lang=cpp_lang" class="btn btn-success btn-rounded  float-right">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-100 hover-shadow rounded">
+            <div class="bg-image hover-zoom hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-duration="3s">
+              <img src="images/java.png" class="card-img-top" alt="Sorry, Image Error" />
+            </div>
+            <div class="card-body">
+              <p class="card-text">Java is a class-based, object-oriented programming language that is designed to
+                have as few implementation dependencies as possible.</p>
+              <a href="home.php?lang=java_lang" class="btn btn-success btn-rounded  float-right">Explore</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card h-100 w-100 hover-shadow rounded">
+            <div class="bg-image hover-zoom hover-overlay ripple shadow-1-strong rounded" data-mdb-ripple-duration="3s">
+              <img src="images/python.png" class="card-img-top" alt="Sorry, Image Error" />
+            </div>
+            <div class="card-body">
+              <p class="card-text">Python is an interpreted, high-level and general-purpose programming language.
+                Python's design
+                philosophy emphasizes code readability with its notable use of significant whitespace.</p>
+              <a href="home.php?lang=python_lang" class="btn btn-success btn-rounded  float-right">Explore</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+    </div>
+  </main>
+  <!-- Main layout -->
+
+  <!-- Footer -->
+  <footer class="page-footer pt-0 mt-5">
+
+    <!-- Copyright -->
+    <div class="footer-copyright py-3 text-center">
+      <div class="container-fluid">
+        Anguraj and Mohanraj
+
+      </div>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->
+
+
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script src="mdb/js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="mdb/js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="mdb/js/bootstrap.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="mdb/js/mdb.min.js"></script>
+  <!--Custom scripts-->
+
+  <!-- MDB -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"></script>
+
+</body>
+
+</html>
